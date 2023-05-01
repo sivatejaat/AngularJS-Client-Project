@@ -1,0 +1,20 @@
+button
+{
+    text-decoration: none;
+    background-color:transparent;
+    color: var(--primary-color);
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: transparent;
+}
+button:hover
+{
+    background-color: var(--primary-color);
+    color: #fff;
+}
+input[type="text"]
+{
+    background: transparent;
+    border: none;
+    font-size: 20px;
+}

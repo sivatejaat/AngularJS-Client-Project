@@ -1,0 +1,13 @@
+<div class="container mt-5 mb-5">
+    <h1 style="color: #fff;">OUR<span class="highlight"> ACTIVITIES</span></h1>
+    <div class="row">
+        <div class="col-lg-4" *ngFor="let fd of CData">
+            <div class="cbox mt-3 mb-3">
+                <img src="{{fd.cImg}}">
+                <h1 style="color:#b3b0b0; ; font-size: 20px;">{{fd.cName}}</h1>
+                <br/>
+                <a class="btn1" [routerLink]="['/data',fd.id]">DETAILS <i class="bi bi-arrow-right"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
